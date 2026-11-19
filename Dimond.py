@@ -31,7 +31,7 @@ st.set_page_config(
 st.title("Diamond Price Prediction")
 
 ## Data Load
-df = pd.read_csv("C:/TOPS/ML/DimondPred/diamonds.csv")
+df = pd.read_csv("diamonds.csv")
 
 # unnamed columns delete
 if "Unnamed: 0" in df.columns:
